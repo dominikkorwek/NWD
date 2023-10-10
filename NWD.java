@@ -1,12 +1,14 @@
-                                        //zadanie 2.3
+import java.util.Scanner;
+
 public class NWD {
     public static void main(String[] args) {
 
 //wpisanie dwoch liczb
-        int n = 10;
-        int m = -20;
+        Scanner skaner = new Scanner(System.in);
+        int n = skaner.nextInt();
+        int m = skaner.nextInt();
         int pom;
-        System.out.println("NWD liczb " + n + " i " + m + " wynosi ");
+        System.out.print("NWD liczb " + n + " i " + m + " wynosi ");
 
 //algorytm Euklidesa
         while (m != 0) {
